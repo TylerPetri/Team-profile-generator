@@ -46,19 +46,19 @@ async function manager() {
 async function engineer() {
   const engineer = await inquirer.prompt([
     {
-      message: "What is your name?",
+      message: "What the name of the engineer?",
       name: "name",
     },
     {
-      message: "What is your employee ID number?",
+      message: "What is their ID number?",
       name: "id",
     },
     {
-      message: "What is your email?",
+      message: "What is their email?",
       name: "email",
     },
     {
-      message: "What is your github profile?",
+      message: "What is their github profile?",
       name: "github",
     },
   ]);
@@ -78,19 +78,19 @@ async function engineer() {
 async function intern() {
   const intern = await inquirer.prompt([
     {
-      message: "What is your name?",
+      message: "What is the name of the intern?",
       name: "name",
     },
     {
-      message: "What is your employee ID number?",
+      message: "What is their ID number?",
       name: "id",
     },
     {
-      message: "What is your email?",
+      message: "What is their email?",
       name: "email",
     },
     {
-      message: "What school do you attend?",
+      message: "What school do they attend?",
       name: "school",
     },
   ]);
