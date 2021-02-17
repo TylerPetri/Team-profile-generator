@@ -33,7 +33,7 @@ You now have the node modules necessary to complete the code
 
 ## Usage
 
-[![Instructional video link](assets/Youtube.PNG)](https://www.youtube.com/watch?v=RwcQyT1jto8&feature=youtu.be)
+[![Instructional video link](assets/Youtube.PNG)](https://www.youtube.com/watch?v=3GWKQ-hC3YA&feature=youtu.be)
 
 ## License
 
