@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+#row1 {
+    height:150px; 
+    background-color:rgb(181, 10, 248); 
+    color:white
+}
+
+h1 {
+    font-family:'Kanit';
+}
+
+.card-header{
+    background-color: rgb(247, 250, 56);
+    color:rgb(70, 70, 70);
+    font-family: 'Kanit'
+}
+
+.card{
+    box-shadow: 5px 7px rgb(156, 156, 156);
+}
+
+li {
+    font-family:'Barlow Condensed'
+}
+
+i {
+    margin-right:5px;
+}
