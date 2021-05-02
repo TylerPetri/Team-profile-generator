@@ -31,7 +31,7 @@ Repeat `npm init` `npm install jest`
 
 You now have the node modules necessary to complete the code
 
-## Usage
+## Usage (video link)
 
 [![Instructional video link](assets/youtubeLink.PNG)](https://www.youtube.com/watch?v=3GWKQ-hC3YA&feature=youtu.be)
 
