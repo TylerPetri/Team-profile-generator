@@ -35,9 +35,49 @@ You now have the node modules necessary to complete the code
 
 [![Instructional video link](assets/youtubeLink.PNG)](https://www.youtube.com/watch?v=3GWKQ-hC3YA&feature=youtu.be)
 
-## License
+## Tests
 
-MIT
+Automated tests are run using Jest: `npm run jest`
+
+### Break down of tests
+
+The tests checks if the class models are correclty coded. Here's one for example:
+
+```
+test("getRole() should return \"Employee\"", () => {
+  const testValue = "Employee";
+  const e = new Employee("Alice", 1, "test@test.com");
+  expect(e.getRole()).toBe(testValue);
+});
+```
+For the class
+```
+class Employee {
+    constructor ( name, id, email){
+        this.name = name
+        this.id = id
+        this.email = email
+    }
+    getName (){
+        return this.name
+    }
+    getId(){
+        return this.id
+    }
+    getEmail(){
+        return this.email
+    }
+    getRole(){
+        return "Employee"
+    }
+}
+```
+
+## Built with
+
+* [Jest](https://www.npmjs.com/package/jest) - Used for automated testing
+* [Inquirer](https://www.npmjs.com/package/inquirer) - The user interface and the inquiry session flow provider
+* [Nodejs](https://nodejs.org/en/) - Used to launch the application
 
 ## Contributing
 
@@ -46,9 +86,9 @@ There are many ways in which you can participate in the project, for example:
 * Review source code changes
 * Review the documentation and make pull requests for anything from typos to new content
 
-## Tests
+## License
 
-Test using npm jest
+MIT
 
 ## Questions
 
